@@ -13,7 +13,6 @@ class RD():
         self.empty_line = ["", "\n", "\r\n"]
         self.save = False
 
-    
     def gen_dict(self, filename):
         with open(filename) as f:
             for line in f:
@@ -38,7 +37,6 @@ class RD():
                         
                 if self.save and self.key:
                     self.data[self.key] += line 
-
 
 if __name__ == '__main__':
     i = sys.argv.index("-i")

@@ -14,10 +14,10 @@ python3 srv.py
 
 ```json
 	{
-	'company': 'Firma_A',
-	'location': 'Aix-en-Provence',
-	'name': 'Mustermann',
-	'page': 'www.capenergies.fr <http://www.capenergies.fr>'
+	"company": "Firma_A",
+	"location": "Aix-en-Provence",
+	"name": "Mustermann",
+	"page": "www.capenergies.fr <http://www.capenergies.fr>"
 	}
 ```
 ## read.py

@@ -27,3 +27,10 @@ Reads `mail.eml` and parses data into `self.data`. Prints out `self.data`.
 ```shell
 python3 read.py -i mail.eml
 ```
+
+## config mail 
+
+* outgoing mail server: 127.0.0.1
+* outgoing mail port: 2525
+* auth: none
+* mail address: me@localhost
